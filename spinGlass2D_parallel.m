@@ -1,3 +1,8 @@
+% In this function, we will flip every spin in lattice randomly and accept or reject the flip 
+% according to probability determined by function
+% 
+%
+%
 function [gridLayer, Ms, Es, E, T, stat, index_f] = spinGlass2D_paralel_with_gridLayer(grid,T,t,index,Ms,Es, k, stat, i)
 J=1;
 gridLayer{1} = grid;
